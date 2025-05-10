@@ -1,0 +1,55 @@
+<!-- service-letters.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Letters - Janith Lakdinu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Janith</a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="service-letters.html">Service Letters</a></li>
+      </ul>
+      <button class="nav-toggle">☰</button>
+    </div>
+  </nav>
+  <div class="content-container" style="margin-top: 80px;">
+    <section class="service-letters-section">
+      <div class="container">
+        <h2>My Service Letters</h2>
+        <div class="service-letters-gallery">
+          <!-- Add your service letter images here -->
+          <img src="images/service-letter1.jpg" alt="Service Letter 1" class="service-letter-img" />
+          <img src="images/service-letter2.jpg" alt="Service Letter 2" class="service-letter-img" />
+          <!-- Add more images as needed -->
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MarvelO. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://wa.me/yourwhatsappnumber" target="_blank" title="=94 71 271 0455" class="footer-social-link">
+          <img src="images/WhatsApp.svg" alt="WhatsApp" style="width:28px;height:28px;vertical-align:middle;" />
+        </a>
+        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQElP587shv60gAAAZa6-23QmI5zEU0q-WGhZy82d36juHIao4ZmLSe8N5HQT1mErzoPdeELtsPF-n4R029jG-ZSDvNxi6IHV_gDabWwQaJ__Yhld51OM4FO3KeJd0rkZc_wrvA=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjanith-lakdinu" target="_blank" title="LinkedIn" class="footer-social-link">
+          <img src="images/LinkedIn.svg" alt="LinkedIn" style="width:28px;height:28px;vertical-align:middle;" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
