@@ -93,10 +93,10 @@ function openModal(modalId) {
 // Slideshow logic for modal
 let currentSlide = 0;
 const slides = [
-  { type: 'image', src: 'images/hotel/figma.png' },
   { type: 'image', src: 'images/hotel/php.png' },
-  { type: 'image', src: 'images/hotel/figma.png' },
-  { type: 'image', src: 'images/hotel/php.png' },
+  { type: 'image', src: 'images/hotel/php2.png' },
+  { type: 'image', src: 'images/hotel/php3.png' },
+  { type: 'image', src: 'images/hotel/php4.png' },
   { type: 'video', src: 'videos/view.mp4' }
 ];
 

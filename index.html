@@ -256,24 +256,28 @@
   <!-- Project Modal -->
   <div id="hotelModal" class="modal">
     <div class="modal-content">
-      <span class="close-modal" onclick="closeModal('hotelModal')">&times;</span>
-      <h2>Hotel Reservation System</h2>
+      <div class="modal-header" style="display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 20px;">
+        <h2 style="flex: 1; text-align: center; margin: 0;">Hotel Reservation System</h2>
+        <span class="close-modal" onclick="closeModal('hotelModal')" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 2rem; cursor: pointer; color: #fff; background: rgba(255,255,255,0.18); border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; transition: background 0.2s, color 0.2s;">
+          &times;
+        </span>
+      </div>
       <div class="modal-body">
         <div class="modal-gallery slideshow">
           <div class="gallery-main">
-            <img id="mainImage" src="images/hotel/figma.png" alt="Hotel Reservation System" style="display:block;">
+            <img id="mainImage" src="images/hotel/php.png" alt="Hotel Reservation System" style="display:block;">
             <video id="mainVideo" controls style="display:none; width:100%; border-radius:10px;">
               <source src="videos/view.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-          <!-- <div class="gallery-thumbs">
-            <img src="images/hotel/figma.png" alt="Screenshot 1" onclick="showSlide(0)" class="active">
-            <img src="images/hotel/php.png" alt="Screenshot 2" onclick="showSlide(1)">
-            <img src="images/hotel/figma.png" alt="Screenshot 3" onclick="showSlide(2)">
-            <img src="images/hotel/php.png" alt="Screenshot 4" onclick="showSlide(3)">
+           <div class="gallery-thumbs">
+            <img src="images/hotel/php.png" alt="Screenshot 1" onclick="showSlide(0)" class="active">
+            <img src="images/hotel/php2.png" alt="Screenshot 2" onclick="showSlide(1)">
+            <img src="images/hotel/php3.png" alt="Screenshot 3" onclick="showSlide(2)">
+            <img src="images/hotel/php4.png" alt="Screenshot 4" onclick="showSlide(3)">
             <img src="videos/view.mp4" alt="Video Demo" onclick="showSlide(4)">
-          </div> -->
+          </div> 
           <button class="slideshow-btn prev" onclick="changeSlide(-1)">&#10094;</button>
           <button class="slideshow-btn next" onclick="changeSlide(1)">&#10095;</button>
         </div>
