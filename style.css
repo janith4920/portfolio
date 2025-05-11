@@ -682,6 +682,18 @@ body.dark-mode .footer-social-link img {
   .navbar .container {
     position: relative;
   }
+  .dev-roles {
+    margin-top: 1.5rem !important;
+    gap: 8px !important;
+    transform: translateY(-30px);
+    font-size: 0.92rem !important;
+    padding: 0.2rem 0.5rem !important;
+  }
+  .dev-roles .role {
+    font-size: 0.95em !important;
+    padding: 0.2em 0.5em !important;
+    margin: 0.1em 0 !important;
+  }
 }
 
 /* Content container */
