@@ -1321,6 +1321,12 @@ body.dark-mode .footer-social-link img {
     height: 28px;
     border-radius: 6px;
   }
+  .download-cv-btn {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.95rem;
+    border-radius: 18px;
+    margin-left: 0.5rem !important;
+  }
 }
 
 /* Service Letters Gallery Styles */
